@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # 多媒体介绍地址
   s.social_media_url   = "https://github.com/JoanKing"
   # git仓库的https地址
-  s.source           = { :git => 'https://github.com/JoanKing/JKSwiftExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JoanKing/JKSwiftUIExtension.git', :tag => s.version.to_s }
   # 最低要求的系统版本
   s.ios.deployment_target = '14.0'
   # s.tvos.deployment_target = "12.0"
