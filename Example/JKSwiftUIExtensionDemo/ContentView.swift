@@ -10,14 +10,12 @@ import JKSwiftUIExtension
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Hello, world!")
-            JKGradientCircleView(colors: [Color.red, .brown], lineWidth: 15)
+            JKGradientCircleView(colors: [Color.red, .green], lineWidth: 15)
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
         }
         .padding()
-        .background(Color(hexString: "#FFAB01"))
+        .background(Color.randomColor())
     }
 }
 
