@@ -1,0 +1,20 @@
+PODS:
+  - JKSwiftUIExtension (0.0.1):
+    - JKSwiftUIExtension/CustomView (= 0.0.1)
+    - JKSwiftUIExtension/ViewExtension (= 0.0.1)
+  - JKSwiftUIExtension/CustomView (0.0.1)
+  - JKSwiftUIExtension/ViewExtension (0.0.1)
+
+DEPENDENCIES:
+  - JKSwiftUIExtension (from `../`)
+
+EXTERNAL SOURCES:
+  JKSwiftUIExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKSwiftUIExtension: 9f305ca89f1c42245a4e819dde1ec2a5ff2df080
+
+PODFILE CHECKSUM: a95a285e2fb8c0779ba7fa6615085deb4b9caf64
+
+COCOAPODS: 1.12.1
