@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 项目名
   s.name             = 'JKSwiftUIExtension'
   # 版本号
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   # 简单描述
   s.summary          = 'SwiftUI版本的一个扩展'
   # 详细介绍
@@ -30,11 +30,12 @@ Pod::Spec.new do |s|
   # 要求是ARC
   s.requires_arc = true
   # 表示源文件的路径，这个路径是相对podspec文件而言的。（这属性下面单独讨论）
-  # s.source_files = 'Sources/**/**/*'
+  s.source_files = 'Sources/**/**/*'
+  s.default_subspecs = 'ViewExtension', 'CustomView'
   # 动态库所使用的资源文件存放位置，放在Resources文件夹中
-  s.resource_bundles = {
-      'JKSwiftUIExtension' => ['Sources/Assets/*.png']
-  }
+  # s.resource_bundles = {
+  #    'JKSwiftUIExtension' => ['Sources/Assets/*.png']
+  # }
   # SwiftUI系统View的一个扩展
   s.subspec 'ViewExtension' do |sub|
       sub.source_files  = 'Sources/Classes/ViewExtension/*'

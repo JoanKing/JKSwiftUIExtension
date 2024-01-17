@@ -10,12 +10,12 @@
 		203C508D03C476DAE4289FCDF12CACF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		20A8E813A79A95C264AEC88513AEE176 /* JKSwiftUIExtension-JKSwiftUIExtension in Resources */ = {isa = PBXBuildFile; fileRef = E6E7C4A06C3964108308AF71DF6C227D /* JKSwiftUIExtension-JKSwiftUIExtension */; };
 		29084F77DAC050F6CFAEA45DCCBE60DD /* Pods-JKSwiftUIExtensionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27154C06D41DDF8E4D5D3F975AC79D10 /* Pods-JKSwiftUIExtensionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F14EB55A0FB6C505F17733309054572 /* JKSwiftUIExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 400AD29E6EFA439408995857E29F0F1B /* JKSwiftUIExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A25108341A1BA6C74FEB5A78BDA1547D /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF632407F838E6747B507C5B42662 /* Color+Extension.swift */; };
-		A8131828F563A842477A261C56F2EF76 /* JKGradientCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24545F208096F391E0D3C8CEE3875C94 /* JKGradientCircleView.swift */; };
-		B1D3292368771920292D065889107595 /* JKSwiftUIExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E856527F52BC2223F0F854B847375E1B /* JKSwiftUIExtension-dummy.m */; };
+		4DAFAF5970A58634B77F13E0E3542483 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D012DEF403A468E4A4D336385A502C /* Color+Extension.swift */; };
+		4F14EB55A0FB6C505F17733309054572 /* JKSwiftUIExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B75F96B661631EBF40360CCBF52F8FD /* JKSwiftUIExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FC5D47523CCD8CAF50C100DE22AE9C /* JKGradientCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22D7FD1FCFE19F349806513F5C9AC03 /* JKGradientCircleView.swift */; };
 		DF2BDE947DFE1832CD6059D490A016D0 /* Pods-JKSwiftUIExtensionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F92C309AB0629F2CCE71364A73A58 /* Pods-JKSwiftUIExtensionDemo-dummy.m */; };
 		F0F186B268B8B4B8459EE044E3B66CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FDD9AAFB270A57EF86B5915CC169BBF1 /* JKSwiftUIExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E43578FE7FA31782CE6E2C4A80408 /* JKSwiftUIExtension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,33 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D6046360B486ED61D57B6D4C093B6E6 /* JKSwiftUIExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftUIExtension.debug.xcconfig; sourceTree = "<group>"; };
-		13970160EB16F79CA91B6817E973E6CF /* JKSwiftUIExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftUIExtension-prefix.pch"; sourceTree = "<group>"; };
+		087B3CC7471F311AD2772A3C39F931D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		111CC55244EF64932B0114EAE70405EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B75F96B661631EBF40360CCBF52F8FD /* JKSwiftUIExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftUIExtension-umbrella.h"; sourceTree = "<group>"; };
 		235F92C309AB0629F2CCE71364A73A58 /* Pods-JKSwiftUIExtensionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftUIExtensionDemo-dummy.m"; sourceTree = "<group>"; };
-		24545F208096F391E0D3C8CEE3875C94 /* JKGradientCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKGradientCircleView.swift; path = Sources/Classes/CustomView/JKGradientCircleView.swift; sourceTree = "<group>"; };
+		24D012DEF403A468E4A4D336385A502C /* Color+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		27154C06D41DDF8E4D5D3F975AC79D10 /* Pods-JKSwiftUIExtensionDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftUIExtensionDemo-umbrella.h"; sourceTree = "<group>"; };
 		2BCA2518443BD6D4501672156639ADC0 /* Pods-JKSwiftUIExtensionDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftUIExtensionDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		355C229944CEADF1A3F98BE5445EF32B /* Pods-JKSwiftUIExtensionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftUIExtensionDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		400AD29E6EFA439408995857E29F0F1B /* JKSwiftUIExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftUIExtension-umbrella.h"; sourceTree = "<group>"; };
 		4279D48934CA158A921A4649192F9792 /* Pods-JKSwiftUIExtensionDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKSwiftUIExtensionDemo-frameworks.sh"; sourceTree = "<group>"; };
-		4DC7DFCD683B4C00AC1AE48E5DA1CED9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		65CBC624F233DBBDEA775BA658B8B33F /* JKSwiftUIExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftUIExtension.release.xcconfig; sourceTree = "<group>"; };
+		5215FE0C08366E4340BB6DD9C40451FC /* JKSwiftUIExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftUIExtension.debug.xcconfig; sourceTree = "<group>"; };
 		69D9F153379913A7820796981AA09109 /* Pods-JKSwiftUIExtensionDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JKSwiftUIExtensionDemo"; path = Pods_JKSwiftUIExtensionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DE15C500E966D0D248DC726667D6A4 /* JKSwiftUIExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSwiftUIExtension-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81113CBC14F96A467FB2067082983A55 /* Pods-JKSwiftUIExtensionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftUIExtensionDemo.modulemap"; sourceTree = "<group>"; };
-		8E1DF632407F838E6747B507C5B42662 /* Color+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+Extension.swift"; path = "Sources/Classes/ViewExtension/Color+Extension.swift"; sourceTree = "<group>"; };
-		8F3B71E17DF5143DFBA0183BB5646A0B /* JKSwiftUIExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSwiftUIExtension-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C47397056EAD25E2F06471B5ADAFAF2 /* JKSwiftUIExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftUIExtension.release.xcconfig; sourceTree = "<group>"; };
+		91FD9983DB424715051B3D563A214251 /* JKSwiftUIExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftUIExtension.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A22D7FD1FCFE19F349806513F5C9AC03 /* JKGradientCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JKGradientCircleView.swift; sourceTree = "<group>"; };
 		BA279DBB87E8760A6E0D1E240B56F8F1 /* Pods-JKSwiftUIExtensionDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftUIExtensionDemo-Info.plist"; sourceTree = "<group>"; };
 		BF7035928C7C81A0930F126E962E6066 /* JKSwiftUIExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKSwiftUIExtension; path = JKSwiftUIExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA4169EA01B5EB3E07543B81532AC81 /* JKSwiftUIExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKSwiftUIExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC3E43578FE7FA31782CE6E2C4A80408 /* JKSwiftUIExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftUIExtension-dummy.m"; sourceTree = "<group>"; };
 		CC6FDCD66CEBDF92FA5490F69CDED731 /* Pods-JKSwiftUIExtensionDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftUIExtensionDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		D02DF56781560486198DC8FB00518A36 /* JKSwiftUIExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKSwiftUIExtension.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		E6E7C4A06C3964108308AF71DF6C227D /* JKSwiftUIExtension-JKSwiftUIExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JKSwiftUIExtension-JKSwiftUIExtension"; path = JKSwiftUIExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E856527F52BC2223F0F854B847375E1B /* JKSwiftUIExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftUIExtension-dummy.m"; sourceTree = "<group>"; };
-		EE98F5B7F4736BBE7FD9BFD4C935CCC1 /* JKSwiftUIExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftUIExtension.modulemap; sourceTree = "<group>"; };
-		F0DB42F81067023B2167EF217D91C437 /* ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist"; sourceTree = "<group>"; };
 		F28214010A0D18243A71230951A87CC2 /* Pods-JKSwiftUIExtensionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftUIExtensionDemo.release.xcconfig"; sourceTree = "<group>"; };
-		FCFA8906BB2FBE491089F0B90E56CB85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FCB779C666A509C061C772F4942E0B73 /* JKSwiftUIExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftUIExtension-prefix.pch"; sourceTree = "<group>"; };
+		FD71BB1282EFEEA66E25CC3571B2AC8D /* ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,66 +92,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F840D8E0C138A0BD4068831D2CD7011 /* JKSwiftUIExtension */ = {
-			isa = PBXGroup;
-			children = (
-				31A54AEE05ADF16108A807D73544B9F3 /* CustomView */,
-				35CA9F6F359546AEBFDE919991BADC92 /* Pod */,
-				31DA2A9845E55456EED89ACB505C02E4 /* Support Files */,
-				1AD58D52CED380EC31B7F79E861A88DB /* ViewExtension */,
-			);
-			name = JKSwiftUIExtension;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1AD58D52CED380EC31B7F79E861A88DB /* ViewExtension */ = {
-			isa = PBXGroup;
-			children = (
-				8E1DF632407F838E6747B507C5B42662 /* Color+Extension.swift */,
-			);
-			name = ViewExtension;
-			sourceTree = "<group>";
-		};
-		31A54AEE05ADF16108A807D73544B9F3 /* CustomView */ = {
-			isa = PBXGroup;
-			children = (
-				24545F208096F391E0D3C8CEE3875C94 /* JKGradientCircleView.swift */,
-			);
-			name = CustomView;
-			sourceTree = "<group>";
-		};
-		31DA2A9845E55456EED89ACB505C02E4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE98F5B7F4736BBE7FD9BFD4C935CCC1 /* JKSwiftUIExtension.modulemap */,
-				E856527F52BC2223F0F854B847375E1B /* JKSwiftUIExtension-dummy.m */,
-				8F3B71E17DF5143DFBA0183BB5646A0B /* JKSwiftUIExtension-Info.plist */,
-				13970160EB16F79CA91B6817E973E6CF /* JKSwiftUIExtension-prefix.pch */,
-				400AD29E6EFA439408995857E29F0F1B /* JKSwiftUIExtension-umbrella.h */,
-				0D6046360B486ED61D57B6D4C093B6E6 /* JKSwiftUIExtension.debug.xcconfig */,
-				65CBC624F233DBBDEA775BA658B8B33F /* JKSwiftUIExtension.release.xcconfig */,
-				F0DB42F81067023B2167EF217D91C437 /* ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JKSwiftUIExtension";
-			sourceTree = "<group>";
-		};
-		35CA9F6F359546AEBFDE919991BADC92 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D02DF56781560486198DC8FB00518A36 /* JKSwiftUIExtension.podspec */,
-				FCFA8906BB2FBE491089F0B90E56CB85 /* LICENSE */,
-				4DC7DFCD683B4C00AC1AE48E5DA1CED9 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4840E9D720E20FA78B5A94F2750F461A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				8D0C31B565311890F04F38638FB428E0 /* Pods-JKSwiftUIExtensionDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56EF1248665D7A5681C48D00D6E72E42 /* ViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				24D012DEF403A468E4A4D336385A502C /* Color+Extension.swift */,
+			);
+			name = ViewExtension;
+			path = Sources/Classes/ViewExtension;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -189,10 +144,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A335637FD5B1BC5CF585253B8DF4CF7D /* JKSwiftUIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A52D0996B1EF5B6F57CC538849E71 /* CustomView */,
+				A8BD6D8B07AEBB4CF3BEC2904967344E /* Pod */,
+				A661F9DEB2F493D1F66E51BEFAEB93BC /* Support Files */,
+				56EF1248665D7A5681C48D00D6E72E42 /* ViewExtension */,
+			);
+			name = JKSwiftUIExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A661F9DEB2F493D1F66E51BEFAEB93BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FD9983DB424715051B3D563A214251 /* JKSwiftUIExtension.modulemap */,
+				CC3E43578FE7FA31782CE6E2C4A80408 /* JKSwiftUIExtension-dummy.m */,
+				72DE15C500E966D0D248DC726667D6A4 /* JKSwiftUIExtension-Info.plist */,
+				FCB779C666A509C061C772F4942E0B73 /* JKSwiftUIExtension-prefix.pch */,
+				1B75F96B661631EBF40360CCBF52F8FD /* JKSwiftUIExtension-umbrella.h */,
+				5215FE0C08366E4340BB6DD9C40451FC /* JKSwiftUIExtension.debug.xcconfig */,
+				8C47397056EAD25E2F06471B5ADAFAF2 /* JKSwiftUIExtension.release.xcconfig */,
+				FD71BB1282EFEEA66E25CC3571B2AC8D /* ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKSwiftUIExtension";
+			sourceTree = "<group>";
+		};
+		A8BD6D8B07AEBB4CF3BEC2904967344E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4169EA01B5EB3E07543B81532AC81 /* JKSwiftUIExtension.podspec */,
+				111CC55244EF64932B0114EAE70405EC /* LICENSE */,
+				087B3CC7471F311AD2772A3C39F931D8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		B2E2FF15C4B5FA29083839850F92E913 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F840D8E0C138A0BD4068831D2CD7011 /* JKSwiftUIExtension */,
+				A335637FD5B1BC5CF585253B8DF4CF7D /* JKSwiftUIExtension */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -214,6 +207,15 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9A52D0996B1EF5B6F57CC538849E71 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A22D7FD1FCFE19F349806513F5C9AC03 /* JKGradientCircleView.swift */,
+			);
+			name = CustomView;
+			path = Sources/Classes/CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +281,7 @@
 			buildConfigurationList = E614BCC1677E5E9885A7DE134866DD30 /* Build configuration list for PBXNativeTarget "JKSwiftUIExtension" */;
 			buildPhases = (
 				60EA6645DBFB7426D72FEF7E0C9A9014 /* Headers */,
-				7B04D8E735B0F525D1C9DB25891DDF37 /* Sources */,
+				3FD40C0F1A032135A0EDCBFE57EECCF1 /* Sources */,
 				F31C2DD1BD84574291E0B8E6388B6335 /* Frameworks */,
 				044DD022D8C9BDD8DFD4068F392B6FDE /* Resources */,
 			);
@@ -348,21 +350,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3FD40C0F1A032135A0EDCBFE57EECCF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAFAF5970A58634B77F13E0E3542483 /* Color+Extension.swift in Sources */,
+				76FC5D47523CCD8CAF50C100DE22AE9C /* JKGradientCircleView.swift in Sources */,
+				FDD9AAFB270A57EF86B5915CC169BBF1 /* JKSwiftUIExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BEE603F82C1C3199D70A8E278605CD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF2BDE947DFE1832CD6059D490A016D0 /* Pods-JKSwiftUIExtensionDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B04D8E735B0F525D1C9DB25891DDF37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A25108341A1BA6C74FEB5A78BDA1547D /* Color+Extension.swift in Sources */,
-				A8131828F563A842477A261C56F2EF76 /* JKGradientCircleView.swift in Sources */,
-				B1D3292368771920292D065889107595 /* JKSwiftUIExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,26 +393,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12E3C2C7074732E3F8CE63E8E9E074A4 /* Debug */ = {
+		22AF76A73038F02F5FABD86D01895771 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D6046360B486ED61D57B6D4C093B6E6 /* JKSwiftUIExtension.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSwiftUIExtension";
-				IBSC_MODULE = JKSwiftUIExtension;
-				INFOPLIST_FILE = "Target Support Files/JKSwiftUIExtension/ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = JKSwiftUIExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		32BA4BB5D3675BF1BD6845B0F611AFFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65CBC624F233DBBDEA775BA658B8B33F /* JKSwiftUIExtension.release.xcconfig */;
+			baseConfigurationReference = 5215FE0C08366E4340BB6DD9C40451FC /* JKSwiftUIExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -424,7 +409,42 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension.modulemap";
+				PRODUCT_MODULE_NAME = JKSwiftUIExtension;
+				PRODUCT_NAME = JKSwiftUIExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49BBDF31BD86753C41FDB6DE136BA2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C47397056EAD25E2F06471B5ADAFAF2 /* JKSwiftUIExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +527,23 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AE5593D22B63F1AB4D42B0516CE3C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5215FE0C08366E4340BB6DD9C40451FC /* JKSwiftUIExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSwiftUIExtension";
+				IBSC_MODULE = JKSwiftUIExtension;
+				INFOPLIST_FILE = "Target Support Files/JKSwiftUIExtension/ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = JKSwiftUIExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -610,50 +647,15 @@
 			};
 			name = Release;
 		};
-		C4DB22E7D39D79A68B0C93F476C82A92 /* Debug */ = {
+		C1A78F21D2A3858ACAA2D9E1E02A155F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D6046360B486ED61D57B6D4C093B6E6 /* JKSwiftUIExtension.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JKSwiftUIExtension/JKSwiftUIExtension.modulemap";
-				PRODUCT_MODULE_NAME = JKSwiftUIExtension;
-				PRODUCT_NAME = JKSwiftUIExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D66443550DC75D0C8A8F486153C2423C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65CBC624F233DBBDEA775BA658B8B33F /* JKSwiftUIExtension.release.xcconfig */;
+			baseConfigurationReference = 8C47397056EAD25E2F06471B5ADAFAF2 /* JKSwiftUIExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSwiftUIExtension";
 				IBSC_MODULE = JKSwiftUIExtension;
 				INFOPLIST_FILE = "Target Support Files/JKSwiftUIExtension/ResourceBundle-JKSwiftUIExtension-JKSwiftUIExtension-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = JKSwiftUIExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -723,8 +725,8 @@
 		8B3D301F25ADF3BCE2931474F494343D /* Build configuration list for PBXNativeTarget "JKSwiftUIExtension-JKSwiftUIExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12E3C2C7074732E3F8CE63E8E9E074A4 /* Debug */,
-				D66443550DC75D0C8A8F486153C2423C /* Release */,
+				9AE5593D22B63F1AB4D42B0516CE3C9A /* Debug */,
+				C1A78F21D2A3858ACAA2D9E1E02A155F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -732,8 +734,8 @@
 		E614BCC1677E5E9885A7DE134866DD30 /* Build configuration list for PBXNativeTarget "JKSwiftUIExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4DB22E7D39D79A68B0C93F476C82A92 /* Debug */,
-				32BA4BB5D3675BF1BD6845B0F611AFFE /* Release */,
+				22AF76A73038F02F5FABD86D01895771 /* Debug */,
+				49BBDF31BD86753C41FDB6DE136BA2AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

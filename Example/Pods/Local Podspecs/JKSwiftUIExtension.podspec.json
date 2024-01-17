@@ -13,14 +13,19 @@
   },
   "social_media_url": "https://github.com/JoanKing",
   "source": {
-    "git": "https://github.com/JoanKing/JKSwiftExtension.git",
+    "git": "https://github.com/JoanKing/JKSwiftUIExtension.git",
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "14.0"
   },
   "swift_versions": "5.0",
   "requires_arc": true,
+  "source_files": "Sources/**/**/*",
+  "default_subspecs": [
+    "ViewExtension",
+    "CustomView"
+  ],
   "resource_bundles": {
     "JKSwiftUIExtension": [
       "Sources/Assets/*.png"
