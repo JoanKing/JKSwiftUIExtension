@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 项目名
   s.name             = 'JKSwiftUIExtension'
   # 版本号
-  s.version          = '0.0.1'
+  s.version          = '0.0.6'
   # 简单描述
   s.summary          = 'SwiftUI版本的一个扩展'
   # 详细介绍
