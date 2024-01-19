@@ -42,7 +42,7 @@ end
 <img src="https://github.com/JoanKing/JKSwiftExtension/assets/19670000/520a15e4-970c-43e6-9f6a-aa0fc308abb5" alt="微信交流群" width="220">
 
 ## 版本说明
-  - 0.0.1、版本(2024.01.16)
+  - 0.0.6、版本(2024.01.16)
     - Color+Extension对Color的一个扩展
     - JKGradientCircleView渐变色圆环
        
