@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 项目名
   s.name             = 'JKSwiftUIExtension'
   # 版本号
-  s.version          = '0.0.6'
+  s.version          = '0.1.0'
   # 简单描述
   s.summary          = 'SwiftUI版本的一个扩展'
   # 详细介绍
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # 表示源文件的路径，这个路径是相对podspec文件而言的。（这属性下面单独讨论）
   s.source_files = 'Sources/**/**/*'
-  s.default_subspecs = 'ViewExtension', 'CustomView'
+  # 默认显示的组
+  s.default_subspecs = 'ViewExtension', 'CustomView', 'StyleExtension'
   # 动态库所使用的资源文件存放位置，放在Resources文件夹中
   # s.resource_bundles = {
   #    'JKSwiftUIExtension' => ['Sources/Assets/*.png']
@@ -43,6 +44,10 @@ Pod::Spec.new do |s|
   # SwiftUI系统View的自定义类
   s.subspec 'CustomView' do |sub|
       sub.source_files  = 'Sources/Classes/CustomView/*'
+  end
+  # SwiftUI系统Style的自定义
+  s.subspec 'StyleExtension' do |sub|
+      sub.source_files  = 'Sources/Classes/StyleExtension/*'
   end
 
   # 在这个属性中声明过的.h文件能够使用<>方法联想调用（这个是可选属性）

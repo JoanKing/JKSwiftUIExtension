@@ -1,18 +1,29 @@
 PODS:
-  - JKSwiftUIExtension (0.0.1):
-    - JKSwiftUIExtension/CustomView (= 0.0.1)
-    - JKSwiftUIExtension/ViewExtension (= 0.0.1)
+  - JKSwiftExtension (2.6.0)
+  - JKSwiftUIExtension (0.0.7):
+    - JKSwiftUIExtension/CustomView (= 0.0.7)
+    - JKSwiftUIExtension/StyleExtension (= 0.0.7)
+    - JKSwiftUIExtension/ViewExtension (= 0.0.7)
+  - JKSwiftUIExtension/CustomView (0.0.7)
+  - JKSwiftUIExtension/StyleExtension (0.0.7)
+  - JKSwiftUIExtension/ViewExtension (0.0.7)
 
 DEPENDENCIES:
+  - JKSwiftExtension
   - JKSwiftUIExtension (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - JKSwiftExtension
 
 EXTERNAL SOURCES:
   JKSwiftUIExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKSwiftUIExtension: 30a5dc6a48a829a00edb523b12fd8c69c0253824
+  JKSwiftExtension: 9ffe7512d8bdbec20b443e8953017edc94a0246c
+  JKSwiftUIExtension: d06ee4df1ba3154492eaf8890bfb1c514bb9bbc4
 
-PODFILE CHECKSUM: a95a285e2fb8c0779ba7fa6615085deb4b9caf64
+PODFILE CHECKSUM: b66db532684cf4dafcf144fd935e9c71c3891f7a
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.3

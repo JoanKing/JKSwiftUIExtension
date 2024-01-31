@@ -1,6 +1,6 @@
 {
   "name": "JKSwiftUIExtension",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "summary": "SwiftUI版本的一个扩展",
   "description": "这是SwiftUI版本扩展的一个详细的使用，可以参考里面的用法",
   "homepage": "https://github.com/JoanKing/JKSwiftUIExtension",
@@ -14,7 +14,7 @@
   "social_media_url": "https://github.com/JoanKing",
   "source": {
     "git": "https://github.com/JoanKing/JKSwiftUIExtension.git",
-    "tag": "0.0.1"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "14.0"
@@ -24,13 +24,9 @@
   "source_files": "Sources/**/**/*",
   "default_subspecs": [
     "ViewExtension",
-    "CustomView"
+    "CustomView",
+    "StyleExtension"
   ],
-  "resource_bundles": {
-    "JKSwiftUIExtension": [
-      "Sources/Assets/*.png"
-    ]
-  },
   "subspecs": [
     {
       "name": "ViewExtension",
@@ -39,6 +35,10 @@
     {
       "name": "CustomView",
       "source_files": "Sources/Classes/CustomView/*"
+    },
+    {
+      "name": "StyleExtension",
+      "source_files": "Sources/Classes/StyleExtension/*"
     }
   ],
   "swift_version": "5.0"
